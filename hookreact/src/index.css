@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6f9;
+}
+
+.app-container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input, select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  flex: 1;
+}
+
+button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-btn {
+  background: #28a745;
+  color: white;
+}
+
+.add-btn:hover {
+  background: #218838;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #f1f3f5;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.task.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.priority {
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+
+.low { background: #d4edda; }
+.medium { background: #fff3cd; }
+.high { background: #f8d7da; }
+
+.actions button {
+  margin-left: 5px;
+}
+
+.complete-btn {
+  background: #007bff;
+  color: white;
+}
+
+.delete-btn {
+  background: #dc3545;
+  color: white;
+}
